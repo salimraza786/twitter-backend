@@ -21,7 +21,7 @@ app.use(cookieParser());
 
 // cors
 const corsOptions = {
-  origin: "http://localhost:3000",
+  origin: "https://xsalim.netlify.app",
   credentials: true
 }
 app.use(cors(corsOptions));
